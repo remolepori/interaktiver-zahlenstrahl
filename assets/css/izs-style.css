@@ -1,0 +1,194 @@
+.zahlenstrahl-app {
+  background: #f4f5f7;
+  border-radius: 12px;
+  padding: 0.8rem 1.0rem 1.0rem;
+  font-family: 'Montserrat';
+  height: 95vh;
+}
+
+.zs-header {
+  padding: 0.4rem 0.2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+  justify-content: space-between;
+}
+
+.zs-header h2 {
+  font-size: 1.05rem;
+  margin: 0;
+  font-weight: 600;
+  color: #1d3557;
+  flex: 1; /* schiebt die anderen Elemente nach rechts */
+}
+
+.zs-size-control {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.zs-height-range {
+  width: 120px;
+}
+
+.zs-height-value {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+
+.zs-app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.zs-controls {
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.zs-controls-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-end;
+}
+
+.zs-control-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  min-width: 120px;
+}
+
+.zs-control-group label {
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+}
+
+.zs-control-group input {
+  padding: 0.3rem 0.4rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1.6rem;
+  min-width: 0;
+}
+
+.zs-control-group-small {
+  max-width: 90px;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: normal;
+}
+
+.zs-apply-range {
+  background: #457b9d;
+  color: white;
+}
+
+.zs-reset-marks {
+  background: #e63946;
+  color: white;
+}
+
+.zs-zoom-in,
+.zs-zoom-out {
+  background: #a8dadc;
+  color: #1d3557;
+}
+
+.zs-toggle-decimals {
+  background: #ffb703;
+  color: #000;
+}
+
+.zs-fullscreen-btn {
+  background: #1d3557;
+  color: #f1faee;
+}
+
+.btn:hover {
+  filter: brightness(0.95);
+}
+
+.zs-label-small {
+  font-size: 1.6rem;
+}
+
+.zs-hint-small {
+  font-size: 1.6rem;
+  color: #666;
+}
+
+.zs-canvas-wrapper {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.zs-info-text {
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+  color: #555;
+  display: none;
+}
+
+.zs-canvas {
+  width: 100%;
+  min-height: 220px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  cursor: grab;
+  /* padding: 2rem 1rem;  ⬅️ WEG DAMIT */
+  display: block;
+}
+
+.zs-canvas:active {
+  cursor: grabbing;
+}
+
+@media (max-width: 720px) {
+  .zs-header h2 {
+    width: 100%;
+  }
+  .zs-control-group {
+    min-width: 90px;
+  }
+}
+
+
+.zs-apply-marks {
+  background: #118ab2;
+  color: #fff;
+  display: none;
+}
+
+
+.zs-size-label {
+  font-size: 1.5rem;
+}
+
+
+
+.zs-controls.is-hidden {
+  display: none;
+}
+
