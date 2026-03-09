@@ -7,4 +7,4 @@
 <code>[zahlenstrahl]</code>
 
 <h2>Screenshot:</h2>
-<img src="https://remo.me/wp-content/uploads/2026/03/interaktive-stellenwerttafel%E2%80%8B-1536x739.png"><img>
+<img src="https://remo.me/wp-content/uploads/2026/03/interaktive-stellenwerttafel%E2%80%8B-1536x739.png" style="width:500px"><img>
