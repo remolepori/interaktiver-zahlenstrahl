@@ -7,4 +7,4 @@
 <code>[zahlenstrahl]</code>
 
 <h2>Screenshot:</h2>
-<img src="https://remo.me/wp-content/uploads/2026/03/interaktive-stellenwerttafel%E2%80%8B-1536x739.png" style="width:500px"><img>
+<img src="https://www.widgo.ch/wp-content/uploads/2025/12/Tools_Zahlenstrahl-768x369.png" style="width:500px"><img>
