@@ -1,10 +1,10 @@
-<h1>Interaktiver Zahlenstrahl (Wordpress Plugin)</h1>
+# Interaktiver Zahlenstrahl (Wordpress Plugin)
 
-<h2>Beschreibung:</h2>
+## Beschreibung
 <p>Stellt einen interaktiven, zoombaren Zahlenstrahl per Shortcode [zahlenstrahl] zur Verfügung.</p>
 
-<h2>Shortcode:</h2>
+## Shortcode
 <code>[zahlenstrahl]</code>
 
-<h2>Screenshot:</h2>
-<img src="https://www.widgo.ch/wp-content/uploads/2025/12/Tools_Zahlenstrahl-768x369.png" style="width:500px"><img>
+## Screenshot
+<img src="https://remo.me/wp-content/uploads/2026/03/Tools_Zahlenstrahl-1-1536x739.png"><img>
